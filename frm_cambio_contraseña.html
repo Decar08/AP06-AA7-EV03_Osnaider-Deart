@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html id="fondo_principal">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambiar Contraseña</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="cabecera">
+        <button class="salir"><img src="img/salir.png" width="25" onclick="location='principal.html'"/></button>
+        <br>
+        <br>
+        <img src="img/logofrutaxcol.PNG" width="200"/>
+        <h2 class="subtitulo">Cambiar Contraseña</h2>        
+        <br>
+        <br>        
+    </header>
+    <br>
+    <br>
+    <section id="cuerpo">
+        <article id="fondo">
+            <form>
+                <br>
+                <br>
+                <label for="Usuario">Usuario</label>
+                    <input type="text" id="Usuario" placeholder="Usuario"/>
+                    <br>
+                    <br>
+                    <label for="NewPassword">Nueva Contraseña</label>
+                    <input type="password" id="NewPassword" placeholder="Nueva Contraseña"/>
+                    <br>
+                    <br>
+                    <label for="ConfirPassword">Confirmar Contraseña</label>
+                    <input type="password" id="ConfirPassword" placeholder="Confirmar Contraseña"/>
+                    <br>
+                    <br>
+                    <br>
+                    <!-- <button onclick="location='principal.html'">Atrás</button> -->
+                    <span class="atras" onclick="location='principal.html'">Atrás</span>
+                    <span class="crearuser" onclick="alert('Contraseña nueva se guardará cuando esté conectado a la BD. preseionar el botón Atrás o el icono de salir para volver al login.')">Guardar nueva contraseña</span>
+                    <br>
+                    <br>
+            </form>
+        </article>        
+    </section>
+    <br>
+    <br>
+    <footer id="pie">
+        <br>
+        <a href="mailto:oedeart@soy.sena.edu.co">Contáctame aquí</a>
+        <img src="img/logofrutaxcolblack.png" width="200"/>
+        <p>Copyright 2022</p>
+    </footer>
+</body>
+</html>

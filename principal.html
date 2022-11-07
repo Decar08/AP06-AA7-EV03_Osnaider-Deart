@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html id="fondo_principal">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de control Frutaxcol</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="cabecera">
+        <h1 class="titulo">Sistema Bitacora de Control Diario</h1>
+        <img src="img/logofrutaxcol.PNG" width="200"/>
+        <h2 class="subtitulo">Sistema Frutaxcols S.A.S.</h2>
+    </header>
+    <br>
+    <br>
+    <section id="cuerpo">
+        <article id="fondo">
+            <br>
+            <img src="img/logouser.png" width="100"/>
+            <br>
+            <br>
+            <form>
+                <label for="Usuario">Usuario</label>
+                <input type="text" id="Usuario" placeholder="Usuario"/>
+                <br>
+                <br>
+                <label for="Password">Contraseña</label>
+                <input type="password" id="Password" placeholder="Contraseña"/>
+                <br>
+                <br>
+                <a href="frm_cambio_contraseña.html">Olvidé mi Contraseña</a>
+                <br>
+                <br>
+                <br>
+                <!-- <button class="inicio" onclick="location='frm_menu_inicio_super_usuarios.html'">Iniciar sesión</button> -->
+                <span class="admin" onclick="location='frm_menu_inicio_super_usuarios.html'">Iniciar Como Administrador</span>
+                <span class="user" onclick="location='frm_menu_inicio_usuarios.html'">Iniciar Como Usuario</span>
+                <br>
+                <br>
+            </form>
+        </article>  
+    </section>
+    <br>
+    <footer id="pie">
+        <br>
+        <a href="mailto:oedeart@soy.sena.edu.co">Contáctame aquí</a>
+        <p>Copyright 2022</p>
+        <img src="img/logofrutaxcolblack.png" width="200"/>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,247 @@
+#fondo_principal{
+    background-color: #ffffa9;
+}
+
+#cabecera{
+    /* border: 3px #000000 double; */
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e3df5b;
+    width: 800px;
+    margin: 0 auto;
+    /* margin: 15px 20px 0px 30px; */
+    background-color: #008600;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    color: #ffffff;
+}
+
+.subtitulo {
+    color: #ffffff;
+    /* margin: 0; */
+}
+
+#cuerpo {
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e3df5b;
+    width: 800px;
+    margin: 0 auto;
+    /* margin: 15px 20px 0px 30px; */
+    background-color: #008600;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#pie {
+    /* border: 3px #000000 double; */
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e3df5b;
+    width: 800px;
+    margin: 0 auto;
+    /* margin: 15px 20px 0px 30px; */
+    background-color: #008600;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* #pielogo {
+    border: 3px #000000 double;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #e3df5b;
+    width: 800px;
+    margin: 0 auto;
+    margin: 15px 20px 0px 30px;
+    background-color: #008600;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+} */
+
+label{
+    font-size: 20px;
+    color: #ffffff;
+    /* padding: 10px; */
+    margin: 0px 0px 0px 200px;;
+    float: left;
+}
+
+input{
+    margin: 0px 200px 0px 0px;
+    /* padding: 25px; */
+    float: right;
+}
+
+select{
+    margin: 0px 200px 0px 0px;
+    /* padding: 25px; */
+    float: right;
+}
+
+a:link {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+a:visited{
+    font-size: 15px;
+    color: #e3df5b;
+}
+
+a:hover{
+    font-size: 15px;
+    color: #82af06;
+}
+
+a:active{
+    font-size: 15px;
+    color: #000000;
+}
+
+p {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+button.descargar{
+    cursor: pointer;
+    font-size: 5px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #82af06;
+}
+
+button.buscar{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #82af06;
+}
+
+button.actividades{
+    width: 220px;
+}
+
+button.pqr{
+    width: 220px;
+}
+
+button.Crear_Pqr{
+    width: 220px;
+}
+
+button.Crear_Actividad{
+    width: 220px;
+}
+
+button.usuarios{
+    width: 220px;
+}
+
+button.crear{
+    width: 220px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+}
+
+span.buscar{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    /* margin: 0px 0px 0px 300px;; */
+    /* float: left; */
+}
+
+span.admin{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    margin: 0px 0px 0px 200px;
+    float: left;
+}
+
+span.user{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    margin: 0px 200px 0px 0px;
+    float: right;
+}
+
+span.descargar{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    margin: 0px 200px 0px 0px;;
+    float: right;
+}
+
+span.crearuser{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    margin: 0px 200px 0px 0px;;
+    float: right;
+}
+
+span.atras{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    margin: 0px 0px 0px 200px;
+    float: left;
+}
+
+span{
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
+}
+
+button:hover{
+    color: #000000;
+    background-color: #82af06;
+}
+
+span:hover{
+    color: #000000;
+    background-color: #82af06;
+}
+
+.salir{
+    float: right;
+    border-color: #82af06;
+}
+

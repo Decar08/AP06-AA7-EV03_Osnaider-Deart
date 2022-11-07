@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html id="fondo_principal">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear PQR Usuario</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="cabecera"> 
+        <button class="salir"><img src="img/salir.png" width="25" onclick="location='principal.html'"/></button>
+        <br>
+        <br>
+        <img src="img/logofrutaxcol.PNG" width="200"/>
+        <h2 class="subtitulo">Módulo Creación de PQR Usuario</h2>
+        <br>
+        <br>
+    </header>
+    <br>
+    <br>
+    <section id="cuerpo">
+        <br>
+        <article id="fondo">
+            <form>
+                <label for="nombre_pqr">Nombre PQR</label>
+                <input type="text" id="nombre_pqr">
+                <br>
+                <br>
+                <label for="fecha_pqr">Fecha PQR</label>
+                <input type="date" id="fecha_actividad"/>
+                <br>
+                <br>
+                <label for="estado_pqr">Estado PQR</label>
+                 <!-- <input type="text" id="estado_actividad"/>-->
+                 <select class="opciones">
+                    <option></option>
+                    <option>Asignada</option>
+                    <option>En Proceso</option>
+                    <option>Terminada</option>
+                </select>
+                <br>
+                <br>
+                <!-- <label for="cedula_usuario">Cédula Empleado</label> -->
+                <!-- <input type="number" id="cedula_usuario"/> -->
+                <br>
+                <br>
+                <!-- <button>Atrás</button> -->
+                <span class="atras" onclick="location='frm_menu_inicio_usuarios.html'">Atrás</span>
+                <span class="crearuser" onclick="alert('Creará nuevo PQR cuando esté conectado a la BD.')">Crear PQR</span>
+                <!-- <button>Crear PQR</button> -->
+                <br>
+            </form>
+        </article>
+        <br>        
+    </section>
+    <br>
+    <br>
+    <footer id="pie">
+        <br>
+        <a href="mailto:oedeart@soy.sena.edu.co">Contáctame aquí</a>
+        <p>Copyright 2022</p>
+        <img src="img/logofrutaxcolblack.png" width="200"/>
+    </footer>
+    
+</body>
+</html>
