@@ -7,7 +7,7 @@
 </head>
 <body>
     <header id="cabecera">
-        <button class="salir"><img src="img/salir.png" width="25" onclick="location='principal.html'"/></button>
+        <button class="salir"><img src="img/salir.png" width="25" onclick="exit()"/></button>
         <br>
         <br>
         <img src="img/logofrutaxcol.PNG" width="200"/>
@@ -19,13 +19,13 @@
     <section id="cuerpo">
         <br>
         <article id="fondo">
-            <button class="actividades" onclick="location='frm_lista_actividades_user.html'">Lista de Actividades</button>
+            <button class="actividades" onclick= "goActividades()">Lista de Actividades</button>
             <br>
             <br>
-            <button class="pqr" onclick="location='frm_lista_pqr_user.html'">Lista de PQR</button>
+            <button class="pqr" onclick="goPqr()">Lista de PQR</button>
             <br>
             <br>
-            <button class = "Crear_Pqr" onclick="location='frm_crear_pqr_user.html'">Crear PQR</button>
+            <button class = "Crear_Pqr" onclick="goCrearpqr()">Crear PQR</button>
             <br>
             <br>
         </article>   
@@ -40,5 +40,6 @@
         <img src="img/logofrutaxcolblack.png" width="200"/>
     </footer>
     <br>
+    <script src="/main.js"></script>
 </body>
 </html>

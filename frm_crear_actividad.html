@@ -7,7 +7,7 @@
 </head>
 <body>
     <header id="cabecera">
-        <button class="salir"><img src="img/salir.png" width="25" onclick="location='principal.html'"/></button>
+        <button class="salir"><img src="img/salir.png" width="25" onclick="exit()"/></button>
         <br>
         <br>
         <img src="img/logofrutaxcol.PNG" width="200"/>
@@ -31,7 +31,7 @@
                 <br>
                 <label for="estado_actividad">Estado Actividad</label>
                 <!-- <input type="text" id="estado_actividad"/>-->
-                <select class="opciones">
+                <select class="opciones" id="estado_actividad">
                     <option></option>
                     <option>Asignada</option>
                     <option>En Proceso</option>
@@ -45,8 +45,10 @@
                 <br>
                 <br>
                 <!-- <button>Atrás</button> -->
-                <span class="atras" onclick="location='frm_menu_inicio_super_usuarios.html'">Atrás</span>
-                <span class="crearuser" onclick="alert('Creará nueva actividad cuando esté conectado a la BD.')">Crear Actividad</span>
+                <!-- <span class="atras" onclick="location='frm_menu_inicio_super_usuarios.html'">Atrás</span> -->
+                <span class="atras" onclick="backMenuAdmin()">Atrás</span>
+                <!-- <span class="crearuser" onclick="alert('Creará nueva actividad cuando esté conectado a la BD.')">Crear Actividad</span> -->
+                <span class="crearActividad" onclick="crearActividad()">Crear Actividad</span>
                 <!-- <button>Crear Actividad</button> -->
                 <br>
             </form>
@@ -61,6 +63,6 @@
         <p>Copyright 2022</p>
         <img src="img/logofrutaxcolblack.png" width="200"/>
     </footer>
-    
+    <script src="/main.js"></script>
 </body>
 </html>

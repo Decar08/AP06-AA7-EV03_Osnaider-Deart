@@ -46,11 +46,19 @@
     border-style: solid;
     border-color: #e3df5b;
     width: 800px;
+    height: 200px;
     margin: 0 auto;
     /* margin: 15px 20px 0px 30px; */
     background-color: #008600;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#pie.logoPie{
+    position: fixed;
+    margin-top: 160px;
+    left: 370px;
 
 }
 
@@ -82,6 +90,8 @@ label{
     /* padding: 25px; */
     float: right;
 }*/
+
+
 
 #Usuario{
     display: flex;
